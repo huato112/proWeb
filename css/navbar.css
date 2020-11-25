@@ -1,0 +1,47 @@
+    body {
+        margin: 0px;
+        font-family: 'Kanit', sans-serif;
+    }
+/*   NavBarNavBarNavBarNavBarNavBarNavBarNavBarNavBarNavBar */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* overflow: hidden; */
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    li {
+        float: left;
+    }
+
+    a.nav {
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding: 14px 96px;
+        text-decoration: none;
+    }
+/*https://www.codebee.co.th/labs/%E0%B8%AA%E0%B8%AD%E0%B8%99-css-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-before/*/
+/*Desciption of " :after :before content " */
+    li.ddd:after {
+        display: block;
+        content: '';
+        border-bottom: solid 3px #fff;
+        transform: scaleX(0);
+        transition: 350ms;
+    }
+
+    li.ddd:hover:after {
+        transform: scaleX(1);
+    }
+    
+    .textbox1 {
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 1.5em;
+    }
+
+    

@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------------------------ */
+    .page1 {
+        background-image: url('https://wallpaperaccess.com/full/2641074.gif');
+        margin-top: 0px;
+        height: 100vh;
+        /*background-color: lightgray;*/
+    }
+
+    .posleft1 {
+        margin-top: 10%;
+        margin-left: 5%;
+        padding: 2%;
+        width: 40%;
+        float: left;
+    }
